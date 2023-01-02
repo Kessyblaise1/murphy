@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Murphy Homes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- GOOGLE FONTS CDN  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&family=Open+Sans:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="hero">
+      <header>
+        <nav class="contact_nav">
+          <div class="left_contact_nav">
+            <!-- icon here -->
+            <a href="mailto:excelnango@gmail.com"
+              >Email us at : <span>excelnango@gmail.com</span></a
+            >
+          </div>
+          <div class="right_contact_nav">
+            <a href="" class="right_nav_icon">&phone;</a>
+            <a href="" class="right_nav_icon"></a>
+            <a href="" class="right_nav_icon"></a>
+            <a href="" class="right_nav_icon"></a>
+            <a href="" class="right_nav_icon"></a>
+            <div class="divider"></div>
+            <div class="right_nav_tel">
+              <!-- icon here -->
+              <a href="tel:+2348113440700" class="phone">+2348113440700</a>
+            </div>
+          </div>
+        </nav>
+        <nav class="page_nav">
+          <div class="logo_left">
+            <img src="./data/images/logo.svg" alt="logo" />
+          </div>
+          <div class="right_page_nav">
+            <a href="" class="page_nav_item">HOME</a>
+            <a href="" class="page_nav_item">ABOUT US</a>
+            <a href="" class="page_nav_item">OUR AGENTS</a>
+            <a href="" class="page_nav_item">PROPERTIES</a>
+            <a href="" class="page_nav_item">GALLERY</a>
+            <a href="" class="page_nav_item">BLOG</a>
+            <a href="" class="page_nav_item">CONTACT US</a>
+            <a href="" class="page_nav_item">SEARCH</a>
+            <a href="" class="page_nav_item">Add Listing</a>
+          </div>
+        </nav>
+      </header>
+
+      <div class="hero_text">
+        <h1>Find Your Dream Home</h1>
+        <p>Finding a dream home should not be a stress. Find your dream home here!</p>
+      </div>
+    </div>
+
+    <main>
+      <form class="banner">
+        <div class="type_container">
+          <div class="rent">Rent</div>
+          <div class="sale">Sale</div>
+        </div>
+        <div class="option_field">
+          <div class="form_field">
+            <label for="location" class="location">Locations</label>
+            <select name="location" id="location">
+              <option value="">Select Your City</option>
+              <option value="Lagos">Lagos</option>
+              <option value="Benin">Benin</option>
+              <option value="Ibadan">Ibadan</option>
+            </select>
+          </div>
+        </div>
+        <div class="option_field">
+          <div class="form_field">
+            <label for="property_type" class="property_type">Property Type</label>
+            <select name="property_type" id="property_type">
+              <option value="">select property type</option>
+              <option value="Lagos">Lagos</option>
+              <option value="Benin">Benin</option>
+              <option value="Ibadan">Ibadan</option>
+            </select>
+          </div>
+        </div>
+        <div class="option_field">
+          <div class="form_field">
+            <label for="range" class="range">Rent Range</label>
+            <select name="range" id="range">
+              <option value="">Select Rent range</option>
+              <option value="Lagos">Lagos</option>
+              <option value="Benin">Benin</option>
+              <option value="Ibadan">Ibadan</option>
+            </select>
+          </div>
+        </div>
+        <div class="option_field">
+          <button>Search</button>
+        </div>
+      </form>
+
+      <!-- GRID AREA -->
+      <div class="area_grid">
+        <h2 class="area_header">Property by Area</h2>
+        <p class="area_description">
+          Choose cozy apartments from serene residential areas that make living more worthwhile.
+        </p>
+        <div class="grid_container">
+          <div class="grid_content">Lekki <span>25 listings</span></div>
+          <div class="grid_content">Ikoyi <span>25 listings</span></div>
+          <div class="grid_content">Ewet Housing <span>25 listings</span></div>
+          <div class="grid_content">G.R.A, Abuja <span>25 listings</span></div>
+          <div class="grid_content">Palms Garden <span>25 listings</span></div>
+        </div>
+      </div>
+
+      <!-- PROPERTY BY HOME SECTION -->
+      <div class="jumbotron">
+        <h2>Property by Area</h2>
+        <p class="area_description">Sell/Rent your home, hassle free.</p>
+        <div class="tile_container">
+          <div class="tile active">
+            <img src="./data/images/sell_home.svg" alt="sell your home" />
+            <h4>Sell your home</h4>
+            <p class="tile_text">We do a free evaluation to be sure you want to start selling.</p>
+            <span>Read More</span>
+          </div>
+          <div class="tile">
+            <img src="./data/images/rent_home.svg" alt="sell your home" />
+            <h4>Sell your home</h4>
+            <p class="tile_text">We do a free evaluation to be sure you want to start selling.</p>
+            <span>Read More</span>
+          </div>
+          <div class="tile">
+            <img src="./data/images/buy_home.svg" alt="sell your home" />
+            <h4>Sell your home</h4>
+            <p class="tile_text">We do a free evaluation to be sure you want to start selling.</p>
+            <span>Read More</span>
+          </div>
+          <div class="tile">
+            <img src="./data/images/free_marketing.svg" alt="sell your home" />
+            <h4>Sell your home</h4>
+            <p class="tile_text">We do a free evaluation to be sure you want to start selling.</p>
+            <span>Read More</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- LATEST PROPERTIES SECTION -->
+      <div class="latest_property">
+        <h2>Latest Properties for Rent</h2>
+        <p class="area_description">
+          Checkout our gallery of available properties for rent and location
+        </p>
+        <div class="flex">
+          <div class="card">
+            <div class="img_container cont1"></div>
+            <div class="card_details">
+              <p class="location">30 G-LINE, EWET HOUSING</p>
+              <P class="price">$590,693</P>
+              <div class="icons">
+                <div class="icon1">
+                  <img src="./data/images/parking.svg" alt="parking space">
+                  4
+                </div>
+                <div class="icon2">
+                  <img src="./data/images/pool.svg" alt="pool">
+                  4
+                </div>
+                <div class="icon3">
+                  <img src="./data/images/height.svg" alt="storeys">
+                  2096.00ft
+                </div>
+              </div>
+            </div>
+            <div class="agent_details">
+              <div class="agent_detail">
+                <img src="./data/images/avatar1.png" alt="real estate agent">
+                <p class="agent_name">Tony Wong</p>
+              </div>
+              <div class="action_icons">
+                <img src="./data/images/share.svg" alt="share post"><img src="./data/images/like.svg" alt="like post"><img src="./data/images/add.svg" alt="add to favourites">
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img_container cont2"></div>
+            <div class="card_details">
+              <p class="location">30 G-LINE, EWET HOUSING</p>
+              <P class="price">$590,693</P>
+              <div class="icons">
+                <div class="icon1">
+                  <img src="./data/images/parking.svg" alt="parking space">
+                  4
+                </div>
+                <div class="icon2">
+                  <img src="./data/images/pool.svg" alt="pool">
+                  4
+                </div>
+                <div class="icon3">
+                  <img src="./data/images/height.svg" alt="storeys">
+                  2096.00ft
+                </div>
+              </div>
+            </div>
+            <div class="agent_details">
+              <div class="agent_detail">
+                <img src="./data/images/avatar1.png" alt="real estate agent">
+                <p class="agent_name">Tony Wong</p>
+              </div>
+              <div class="action_icons">
+                <img src="./data/images/share.svg" alt="share post"><img src="./data/images/like.svg" alt="like post"><img src="./data/images/add.svg" alt="add to favourites">
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img_container cont3"></div>
+            <div class="card_details">
+              <p class="location">30 G-LINE, EWET HOUSING</p>
+              <P class="price">$590,693</P>
+              <div class="icons">
+                <div class="icon1">
+                  <img src="./data/images/parking.svg" alt="parking space">
+                  4
+                </div>
+                <div class="icon2">
+                  <img src="./data/images/pool.svg" alt="pool">
+                  4
+                </div>
+                <div class="icon3">
+                  <img src="./data/images/height.svg" alt="storeys">
+                  2096.00ft
+                </div>
+              </div>
+            </div>
+            <div class="agent_details">
+              <div class="agent_detail">
+                <img src="./data/images/avatar1.png" alt="real estate agent">
+                <p class="agent_name">Tony Wong</p>
+              </div>
+              <div class="action_icons">
+                <img src="./data/images/share.svg" alt="share post"><img src="./data/images/like.svg" alt="like post"><img src="./data/images/add.svg" alt="add to favourites">
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img_container cont4"></div>
+            <div class="card_details">
+              <p class="location">30 G-LINE, EWET HOUSING</p>
+              <P class="price">$590,693</P>
+              <div class="icons">
+                <div class="icon1">
+                  <img src="./data/images/parking.svg" alt="parking space">
+                  4
+                </div>
+                <div class="icon2">
+                  <img src="./data/images/pool.svg" alt="pool">
+                  4
+                </div>
+                <div class="icon3">
+                  <img src="./data/images/height.svg" alt="storeys">
+                  2096.00ft
+                </div>
+              </div>
+            </div>
+            <div class="agent_details">
+              <div class="agent_detail">
+                <img src="./data/images/avatar1.png" alt="real estate agent">
+                <p class="agent_name">Tony Wong</p>
+              </div>
+              <div class="action_icons">
+                <img src="./data/images/share.svg" alt="share post"><img src="./data/images/like.svg" alt="like post"><img src="./data/images/add.svg" alt="add to favourites">
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img_container cont5"></div>
+            <div class="card_details">
+              <p class="location">30 G-LINE, EWET HOUSING</p>
+              <P class="price">$590,693</P>
+              <div class="icons">
+                <div class="icon1">
+                  <img src="./data/images/parking.svg" alt="parking space">
+                  4
+                </div>
+                <div class="icon2">
+                  <img src="./data/images/pool.svg" alt="pool">
+                  4
+                </div>
+                <div class="icon3">
+                  <img src="./data/images/height.svg" alt="storeys">
+                  2096.00ft
+                </div>
+              </div>
+            </div>
+            <div class="agent_details">
+              <div class="agent_detail">
+                <img src="./data/images/avatar1.png" alt="real estate agent">
+                <p class="agent_name">Tony Wong</p>
+              </div>
+              <div class="action_icons">
+                <img src="./data/images/share.svg" alt="share post"><img src="./data/images/like.svg" alt="like post"><img src="./data/images/add.svg" alt="add to favourites">
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img_container cont6"></div>
+            <div class="card_details">
+              <p class="location">30 G-LINE, EWET HOUSING</p>
+              <P class="price">$590,693</P>
+              <div class="icons">
+                <div class="icon1">
+                  <img src="./data/images/parking.svg" alt="parking space">
+                  4
+                </div>
+                <div class="icon2">
+                  <img src="./data/images/pool.svg" alt="pool">
+                  4
+                </div>
+                <div class="icon3">
+                  <img src="./data/images/height.svg" alt="storeys">
+                  2096.00ft
+                </div>
+              </div>
+            </div>
+            <div class="agent_details">
+              <div class="agent_detail">
+                <img src="./data/images/avatar1.png" alt="real estate agent">
+                <p class="agent_name">Tony Wong</p>
+              </div>
+              <div class="action_icons">
+                <img src="./data/images/share.svg" alt="share post"><img src="./data/images/like.svg" alt="like post"><img src="./data/images/add.svg" alt="add to favourites">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      .
+    </main>
+  </body>
+</html>
